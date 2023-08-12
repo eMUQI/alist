@@ -59,7 +59,6 @@ func (d *AListV3) Init(ctx context.Context) error {
 		if err != nil {
 			return err
 		}
-		allowMounted := true
 	}
 	return err
 }
