@@ -83,8 +83,8 @@ func DefaultConfig() *Config {
 		Log: LogConfig{
 			Enable:     true,
 			Name:       logPath,
-			MaxSize:    50,
-			MaxBackups: 30,
+			MaxSize:    10,
+			MaxBackups: 5,
 			MaxAge:     28,
 		},
 		MaxConnections:        0,
